@@ -32,7 +32,7 @@ function start() {
   if (invation !== true) return;
   if (zombies == 101) return;
   if(dead.length == 100) return;
-  console.log(dead.length);
+
   rounds++
   
   for(let i = 0; i < zombies; i++){
